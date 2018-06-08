@@ -1,0 +1,516 @@
+body {
+  background-color:#f5f5f5;
+}
+
+header{
+  font-family: 'Boogaloo', sans-serif;
+}
+
+
+footer{
+  height: 15rem;
+  width:100%;
+  background-color:#0C3F52;
+  color: white;
+  text-align:center;
+}
+
+form{
+  margin-top: 1%;
+}
+.r1 {
+  z-index: 5;
+  height: 5.5rem;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5), 0px -0.5px 1px rgba(0,0,0,0.5) inset;
+  position: fixed;
+  width: 100%;
+  background-color: #FC4349;
+  color: white;
+}
+
+.title{
+  position:absolute;
+  width:auto;
+  font-size: 3.7rem;
+  font-weight:500;
+  padding-left: 3%;
+  }
+
+.topnav{
+  overflow:hidden;
+  height: 5.5rem;
+  margin-right:4%;
+}
+.topnav a{
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0rem 1rem;
+  margin: 1.5rem 0.5rem;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.topnav a:hover{
+  background-color: #e24348;
+}
+.topnav a:active{
+  transform: translateY(2px);
+}
+
+.r2{
+  z-index: 3;
+  color: #fff;
+  background:
+    linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+    url('order.jpg');
+  background-size: cover;
+  padding:20rem 5rem 12rem 5rem;
+  width:100%;
+  }
+
+.subtitle{
+  font-size: 12.2rem;
+  font-family: 'Hanna',sans-serif;
+}
+
+.ready{
+  font-size: 2.2rem;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin:1%;
+  font-weight:bold;
+}
+.progress-bar1{
+  display: block;
+  background-color: whitesmoke;
+  height: 3.3rem;
+  width:44rem;
+  border-radius: 4px;
+  padding: 1.1px;
+  box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+  margin: 2% auto 3.5% auto;
+}
+.progress-bar1 span{
+  float:left;
+  display:inline-block;
+  height: 100%;
+  border-radius:3px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.5) inset;
+  background-color: #FC4349;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.6rem;
+}
+.emailbox{
+  font-size: 2rem;
+  height: 6.1rem;
+  width: 42rem;
+  font-family:'Noto Sans KR', sans-serif;
+  border: 2px solid #FC4349;
+  background-color: white;
+  padding-left: 1rem;
+}
+
+.notifyme{
+  font-size: 1.9rem;
+  height: 6rem;
+  width: 9.5rem;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-family:'Noto Sans KR', sans-serif;
+  background-color: #FC4349;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 0px 2px rgb(0,0,0) inset;
+}
+
+.notifyme:hover{
+  background-color: #e24348;
+}
+
+.notifyme:active{
+  transform: translateY(3px);
+}
+
+::-webkit-input-placeholder{
+  color: gray;
+  font-size: 2rem;
+  font-weight:100;
+}
+
+.r3{
+  height: 67rem;
+  text-align:center;
+  width:95rem;
+  margin:auto;
+}
+
+.left{
+  height: 45rem;
+  width:45rem;
+  display: inline-block;
+  font-family: 'Jeju Gothic', sans-serif;
+  display: inline-block;
+  float: left;
+  margin: 13rem 0 auto 2rem;
+  line-height: 4rem;
+}
+.leftt{
+  font-size: 3.5rem;
+}
+.leftsubt{
+  font-size: 2.5rem;
+  text-align: right;
+}
+.leftbody{
+  font-size: 2.3rem;
+}
+.right{
+  height:48rem;
+  width: 48rem;
+  display: inline-block;
+  float: left;
+  margin-top: 5rem;
+}
+.logo{
+  height:48rem;
+  width:48rem;
+}
+.share{
+  margin: 2rem auto;
+}
+.sharebtn{
+  height: 4rem;
+  width: 4rem;
+  margin: 3rem 0.5rem 0rem 0.5rem;
+}
+.sharebtn:hover{
+  border:2.5px solid rgba(0,0,0,0.1);
+  border-radius: 3px;
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+  .r2{
+    padding: 18rem 3rem 12rem 3rem;
+  }
+  .subtitle{
+    font-size: 9rem;
+  }
+  .ready{
+    font-size:1.8rem;
+  }
+  .r3{
+    padding-top:3rem;
+    width:73rem;
+    height: 62rem;
+  }
+  .left{
+    height: 36rem;
+    width:34rem;
+    margin: 7rem 0 auto 1rem;
+  }
+  .leftt{
+    font-size:3rem;
+  }
+  .leftsubt{
+    font-size: 2.3rem;
+  }
+  .leftbody{
+    font-size: 2.1rem;
+  }
+  .right{
+    margin-top:8rem;
+    height: 38rem;
+    width: 38rem;
+  }
+  .logo{
+    height: 38rem;
+    width: 38rem;
+  }
+  footer{
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width:480px) and (max-width:768px){
+  .r2{
+    padding: 20rem 2rem 18rem 2rem;
+  }
+  .subtitle{
+    font-size:8rem;
+  }
+  .ready{
+    font-size: 1.7rem;
+    margin-top: 1.1rem;
+  }
+  .progress-bar1{
+    height: 2.5rem;
+    width:30rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    margin: 2% auto 4% auto;
+  }
+  .progress-bar1 span{
+    font-size: 1.4rem;
+  }
+  .emailbox{
+    font-size: 1.7rem;
+    height: 5rem;
+    width: 35rem;
+    margin-top: 1rem;
+  }
+  .notifyme{
+    font-size: 1.7rem;
+    height: 5rem;
+    width: 9rem;
+    color: white;
+  }
+  .r3{
+    padding-top:8rem;
+    width:40rem;
+  }
+  .left{
+    z-index: 1;
+    height: 44rem;
+    width:40rem;
+    margin:4.7rem auto auto auto;
+    position: relative;
+  }
+  .leftt{
+    font-size:3.5rem;
+  }
+  .leftsubt{
+    font-size: 2.5rem;
+  }
+  .leftbody{
+    font-size: 2.3rem;
+  }
+  .left:after{
+    z-index:-1;
+    position: absolute;
+    top:0;
+    left:0;
+    background-image: url(logo.png);
+    background-size: cover;
+    opacity: 0.5!important;
+    filter:alpha(opacity=0);
+    content:"";
+    width:100%;
+    height: 100%;
+  }
+  .right{
+    display:none;
+  }
+  footer{
+      font-size: 1.3rem;
+      height:13rem;
+  }
+  .sharebtn{
+    margin:2rem 0.5rem 0rem 0.5rem;
+  }
+}
+@media only screen and (min-width: 363px) and (max-width: 480px){
+  .r1 {
+    height: 4.3rem;
+  }
+
+  .title{
+    font-size: 3rem;
+    padding-left: 2%;
+    }
+
+  .topnav{
+    height: 4.3rem;
+    margin-right:2%;
+  }
+  .topnav a{
+    padding: 0rem 0.5rem;
+    margin: 1.4rem 0.5rem;
+    font-size: 1.4rem;
+  }
+  .r2{
+    padding: 17rem 1rem 13rem 1rem;
+  }
+  .subtitle{
+    font-size:5.5rem;
+  }
+  .ready{
+    font-size: 1.5rem;
+    margin-top: 1.1rem;
+  }
+  .progress-bar1{
+    height: 2.2rem;
+    width:23rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    margin: 1rem auto 4% auto;
+  }
+  .progress-bar1 span{
+    font-size: 1.3rem;
+  }
+  .emailbox{
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 27rem;
+    margin: 1rem auto 0 auto;
+  }
+  .notifyme{
+    margin-top:1rem;
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 8rem;
+    color: white;
+  }
+  .r3{
+    padding-top:8rem;
+    width:34rem;
+    height: 57rem;
+    margin: auto;
+  }
+  .left{
+    z-index: 1;
+    height: 30rem;
+    width:34rem;
+    margin:auto;
+    position: relative;
+  }
+  .leftt{
+    font-size:2.7rem;
+  }
+  .leftsubt{
+    font-size: 2.2rem;
+  }
+  .leftbody{
+    font-size: 2rem;
+  }
+  .left:after{
+    z-index:-1;
+    position: absolute;
+    top:0;
+    left:0;
+    background-image: url(logo.png);
+    background-size: cover;
+    opacity: 0.5!important;
+    filter:alpha(opacity=0);
+    content:"";
+    width:100%;
+    height: 100%;
+  }
+  .right{
+    display:none;
+  }
+  footer{
+    height: 10rem;
+    font-size: 1.1rem;
+  }
+  .share{
+    margin: 1rem auto;
+  }
+  .sharebtn{
+    height: 3.3rem;
+    width: 3.3rem;
+    margin: 1.5rem 0.5rem 0rem 0.5rem;
+  }
+}
+@media only screen and (max-width:363px){
+  .r1 {
+    height: 4.3rem;
+  }
+
+  .title{
+    font-size: 3rem;
+    padding-left: 2%;
+    }
+
+  .topnav{
+    height: 4.3rem;
+    margin-right:2%;
+  }
+  .topnav a{
+    padding: 0rem 0.5rem;
+    margin: 1.4rem 0.5rem;
+    font-size: 1.4rem;
+  }
+  .r2{
+    padding: 15rem 1rem 11rem 1rem;
+  }
+  .subtitle{
+    font-size:4.5rem;
+  }
+  .ready{
+    font-size: 1.5rem;
+    margin-top: 1.1rem;
+  }
+  .progress-bar1{
+    height: 2.2rem;
+    width:23rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    margin: 1rem auto 4% auto;
+  }
+  .progress-bar1 span{
+    font-size: 1.3rem;
+  }
+  .emailbox{
+    font-size: 1.3rem;
+    height: 4rem;
+    width: 27rem;
+    margin: 1rem auto 0 auto;
+  }
+  .notifyme{
+    margin-top:1rem;
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 8rem;
+    color: white;
+  }
+  .r3{
+    padding-top:7rem;
+    width:30rem;
+    height: 55rem;
+  }
+  .left{
+    z-index: 1;
+    height: 30rem;
+    width:30rem;
+    margin:auto;
+    position: relative;
+  }
+  .leftt{
+    font-size:2.5rem;
+  }
+  .leftsubt{
+    font-size: 1.9rem;
+  }
+  .leftbody{
+    font-size: 1.8rem;
+  }
+  .left:after{
+    z-index:-1;
+    position: absolute;
+    top:0;
+    left:0;
+    background-image: url(logo.png);
+    background-size: cover;
+    opacity: 0.5!important;
+    filter:alpha(opacity=0);
+    content:"";
+    width:100%;
+    height: 100%;
+  }
+  .right{
+    display:none;
+  }
+  footer{
+    height: 10rem;
+    font-size: 1.1rem;
+  }
+  .share{
+    margin: 1rem auto;
+  }
+  .sharebtn{
+    height: 3.3rem;
+    width: 3.3rem;
+    margin: 1.5rem 0.5rem 0rem 0.5rem;
+  }
+}

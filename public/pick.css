@@ -1,0 +1,108 @@
+body{
+    background:
+        url('salad.jpg');
+    background-repeat: no-repeat;
+    background-position: 70% 50%;
+    background-attachment:fixed;
+    background-size:cover;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+}
+.r1{
+    height: 100%;
+    bottom: 100%;
+}
+.title{
+    font-family: 'Dawning of a New Day', cursive;
+    color: white;
+    font-size: 65px;
+    padding: 20px 30px;
+    text-shadow: 0 3px 3px black; 
+
+}
+
+.r2{
+    padding: 155px 0px 0px 110px ;
+    width: 100%;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+}
+.list{
+    border:2px;
+    background-color: white;
+    height: 75%;
+    width: 90%;
+    overflow-y: auto;
+    border: #FC4349 2px solid;
+    font-family: 'Gamja Flower', sans-serif;
+    font-size: 20px;
+}
+.selector-btn{
+    height: 12%;
+    width: 85%;
+    padding: 5px;
+    margin: 10px 5px;
+    background-color: #FC4349;
+    border: none;
+    color: white;
+    font-size: 18px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 0px 2px rgb(0,0,0) inset;
+    border-radius: 8px;
+}
+.selector-btn:hover{
+    background-color: #e24348;
+  }
+ 
+.selector-btn:active{
+    transform: translateY(3px);
+}
+
+
+@media only screen and (max-width:1150px){
+    .r2{
+        padding: 155px 0px 0px 90px;
+    }
+}
+
+@media only screen and (max-width:1030px){
+    .r2{
+        padding: 155px 0px 0px 50px;
+    }
+}
+@media only screen and (max-width:500px){
+    .r2{
+        padding: 0px;
+        bottom: 55px;
+        position: absolute;
+    }
+    .content-container{
+        height: 350px;
+        width: 350px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:320px){    
+    .r2{
+        padding: 0px;
+        
+    }
+    .content-container{
+        height: 350px;
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+
+.selected {
+    background-color: #efefef;
+}
